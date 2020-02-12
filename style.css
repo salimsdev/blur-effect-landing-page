@@ -85,6 +85,11 @@ body {
     color: #f4f4f4;
 }
 
+.about h3 {
+    padding-bottom: 1rem;
+    border-bottom: #ccc solid 1px;
+}
+
 footer {
     padding: 2.2rem;
 }
@@ -120,6 +125,14 @@ footer p {
     .services div {
         border-bottom: #333 dashed 1px;
         padding: 1.2rem 1rem;
+    }
+
+    .services div:last-child {
+        border: none;
+    }
+
+    .about .grid-2 .div:first-child {
+        margin-bottom: 1rem;
     }
 }
 
